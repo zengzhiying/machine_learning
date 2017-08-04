@@ -1,0 +1,7 @@
+/spark_ml_demo/data/*.txt
+/spark_ml_demo/target/
+
+/tensorflow_demo/mnist_recognition/mnist_images/
+/tensorflow_demo/mnist_recognition/mnist_data/
+
+token.mat
