@@ -5,3 +5,4 @@
 /tensorflow_demo/mnist_recognition/mnist_data/
 
 token.mat
+simple_emotional_classification/*.dat
