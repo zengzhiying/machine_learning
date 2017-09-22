@@ -32,8 +32,9 @@ def words_to_vector(words):
     """
     x = numpy.zeros([len(word_vectors)])
     for word in words:
-        index = word_vectors[word]
-        x[index - 1] = 1
+        if word in word_vectors:
+            index = word_vectors[word]
+            x[index - 1] = 1
     return x
 
 def sentence_to_words(sentence):

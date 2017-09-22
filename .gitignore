@@ -6,3 +6,5 @@
 
 token.mat
 simple_emotional_classification/*.dat
+simple_emotional_classification/*.model
+simple_emotional_classification/*.dict
