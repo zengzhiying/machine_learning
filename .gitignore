@@ -10,3 +10,9 @@ simple_emotional_classification/*.model
 simple_emotional_classification/*.dict
 
 imagenet_object_recognition/models
+
+dlib_object_detect/faces
+dlib_object_detect/stools
+dlib_object_detect/tests
+dlib_object_detect/detector.model
+dlib_object_detect/stools.model
