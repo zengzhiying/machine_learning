@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # coding=utf-8
 """使用dlib svm分类器训练对象检测器
 训练方法: 通过命令行参数传入要训练的图片目录自动开始训练

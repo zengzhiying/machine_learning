@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding=utf-8
 """加载已经训练好的模型, 对图片进行检测
 通过命令行传入图片, 打印识别区域结果并对物体框选生成新的图片
