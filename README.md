@@ -1,2 +1,2 @@
 # machine_learning
-机器学习的一些demo
+机器学习的一些example code

@@ -16,3 +16,6 @@ dlib_object_detect/stools
 dlib_object_detect/tests
 dlib_object_detect/detector.model
 dlib_object_detect/stools.model
+
+
+hotel-evaluation-classification/ChnSentiCorp_htl_ba_2000.zip
