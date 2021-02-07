@@ -11,11 +11,16 @@ simple_emotional_classification/*.dict
 
 imagenet_object_recognition/models
 
-dlib_object_detect/faces
-dlib_object_detect/stools
-dlib_object_detect/tests
-dlib_object_detect/detector.model
-dlib_object_detect/stools.model
+dlib-example/object-detect/faces
+dlib-example/object-detect/stools
+dlib-example/object-detect/tests
+dlib-example/object-detect/detector.model
+dlib-example/object-detect/stools.model
+
+dlib-example/face-detector/test
+dlib-example/face-detector/dlib_face_recognition_resnet_model_v1.dat.bz2
+dlib-example/face-detector/mmod_human_face_detector.dat.bz2
+dlib-example/face-detector/shape_predictor_5_face_landmarks.dat.bz2
 
 
 hotel-evaluation-classification/ChnSentiCorp_htl_ba_2000.zip

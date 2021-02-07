@@ -26,11 +26,8 @@ print("识别对象个数: %d" % len(detects))
 
 if detects:
     for k, detect in enumerate(detects):
-        print("{} 区域坐标: 左:{}, 上:{}, 右:{}, 下:{}".format(k,
-                                                               detect.left(),
-                                                               detect.top(),
-                                                               detect.right(),
-                                                               detect.bottom()))
+        print("{} 区域坐标: 左:{}, 上:{}, 右:{}, 下:{}".format(
+            k, detect.left(), detect.top(), detect.right(), detect.bottom()))
         # 对图片框选
         Y = np.array([detect.top(), detect.top(), detect.bottom(), detect.bottom()])
         X = np.array([detect.left(), detect.right(), detect.right(), detect.left()])
